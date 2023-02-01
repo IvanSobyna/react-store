@@ -1,0 +1,105 @@
+.section2 {
+    display: flex;
+    margin-top: 100px;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {
+        opacity: 4;}
+}
+.women {
+    background-image: url("./women.jpeg");
+    background-size: 100%;
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.men {
+    background-image: url("./men2.jpeg");
+    background-size: 100%;
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.women p {
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+}
+.women button {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    width: 165px;
+    font-size: 25px;
+    height: 70px;
+}
+.women button:hover {
+    cursor: pointer;
+}
+.men p {
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+}
+.men button {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    width: 165px;
+    font-size: 25px;
+    height: 70px;
+}
+.men button:hover {
+    cursor: pointer;
+}
+.arrivals {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.allPic {
+    display: flex;
+    justify-content: space-between;
+}
+.images1 {
+    width: 69%;
+    margin: 50px 50px 0 50px;
+}
+.names1 {
+    font-size: 20px;
+    margin: 20px 50px 0 50px;
+    text-align: center;
+}
+.prices1 {
+    font-size: 16px;
+    margin: 20px 50px 0 50px;
+    text-align: center;
+}
+.aboutProduct {
+    width: 115px;
+    height: 35px;
+    margin-left: 34%;
+    margin-top: 3%;
+    color: white;
+    background-color: black;
+}
+.aboutProduct:hover {
+    cursor: pointer;
+}

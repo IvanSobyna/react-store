@@ -1,0 +1,47 @@
+.newAll {
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {
+        opacity: 1;}
+}
+.arrivals {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.allPic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.images1 {
+    width: 69%;
+    margin: 50px 50px 0 50px;
+}
+.names1 {
+    font-size: 20px;
+    margin: 20px 50px 0 50px;
+    text-align: center;
+}
+.prices1 {
+    font-size: 16px;
+    margin: 20px 50px 0 50px;
+    text-align: center;
+}
+.aboutProduct {
+    width: 115px;
+    height: 35px;
+    margin-left: 34%;
+    margin-top: 3%;
+    color: white;
+    background-color: black;
+}
+.aboutProduct:hover {
+    cursor: pointer;
+}
+.arrow {
+    margin-left: 100px;
+}

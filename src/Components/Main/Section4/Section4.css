@@ -1,0 +1,17 @@
+.InstPic {
+    display: flex;
+    justify-content: center;
+}
+.InstPic img {
+    width: 20%;
+    margin: 20px;
+}
+.follow {
+    margin-top: 120px;
+    text-align: center;
+}
+.link {
+    margin-left: 45%;
+    font-size: 28px;
+    color: black;
+}

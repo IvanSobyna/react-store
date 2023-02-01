@@ -1,0 +1,31 @@
+.wrapper {
+    text-align: center;
+    margin: 100px 10% 100px 10%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {
+        opacity: 1;}
+}
+.arrow {
+    display: flex;
+    width: 3%;
+}
+.imgCollection1 {
+    width: 30%;
+    margin-top: 50px;
+}
+.buyProduct {
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.buyProduct:hover {
+    cursor: pointer;
+}

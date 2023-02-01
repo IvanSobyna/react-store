@@ -1,0 +1,52 @@
+header {
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {
+        opacity: 1;}
+}
+.freeShipping{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 80%;
+}
+.firstBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 12%;
+    margin-left: 12%;
+    transition-duration: 500ms;
+
+}
+.topBar:hover{
+    cursor: pointer;
+    font-size: 30px;
+    transition-duration: 500ms;
+
+
+}
+.iconMenu{
+    width: 14%;
+    height: 14%;
+}
+.iconBasket{
+    width: 4%;
+    height: 4%;
+}
+.shopName{
+    font-size: 30px;
+    font-weight: bold;
+}
+.topBar {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 3px;
+}

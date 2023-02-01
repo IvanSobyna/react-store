@@ -1,0 +1,33 @@
+.mainFooter {
+    margin-top: 150px;
+    background-color: black;
+    height: 380px;
+    width: 100%;
+}
+.allColums {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 80px;
+}
+.imgSM img {
+    width: 50px;
+}
+.fourthColum input {
+    width: 140px;
+    height: 30px;
+}
+.fourthColum button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.fourthColum button:hover {
+    cursor: pointer;
+}
+.secondColum a {
+    color: white;
+}

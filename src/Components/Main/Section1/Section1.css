@@ -1,0 +1,49 @@
+.section1 {
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {
+        opacity: 4;}
+}
+.blockOne {
+    background-image: url("section1-image.jpeg");
+    height: 500px;
+    background-size: 100%;
+    padding-top: 17%;
+    transition-duration: 500ms;
+
+}
+.infoBlockOne {
+    margin-left: 65%;
+}
+.infoBlockOne h1 {
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.infoBlockOne p {
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.infoBlockOne button {
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.infoBlockOne button:hover {
+    cursor: pointer;
+}
+.lastBlock {
+    text-align: center;
+    margin-top: 100px;
+}
+.lastBlock .moreAbout {
+    color: black;
+    font-weight: bold;
+}
